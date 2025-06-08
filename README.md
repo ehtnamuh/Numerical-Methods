@@ -34,15 +34,16 @@ This lab aims to equip students with practical skills in:
 - Introduction to Matplotlib for plotting  
 - Reading and writing images using Pillow  
 
-### 🔹 Lab 2: Taylor Series Expansion
-- Implementing Taylor series approximation  
-- Analyzing function behavior near a point  
-- Visualizing approximated vs. original functions  
-
-### 🔹 Lab 3: Root-Finding Using Newton-Raphson
+### 🔹 Lab 2: Root-Finding Using Newton-Raphson
 - Newton-Raphson method with analytical and numerical derivatives  
 - Finite difference vs. symbolic differentiation  
 - Convergence behavior and performance analysis  
+
+### 🔹 Lab 3: K-Nearest Neighbors (KNN)
+- Implementing KNN from scratch using NumPy  
+- Classifying images (Cats vs. Dogs) from the PetImage dataset  
+- Evaluation metrics: accuracy, confusion matrix, precision, recall  
+- Using Scikit-learn for comparison
 
 ### 🔹 Lab 4: Numerical Integration
 - Implementing trapezoidal and composite trapezoidal rules  
@@ -52,12 +53,20 @@ This lab aims to equip students with practical skills in:
 - Implementing KNN from scratch using NumPy  
 - Classifying images (Cats vs. Dogs) from the PetImage dataset  
 - Evaluation metrics: accuracy, confusion matrix, precision, recall  
-- Using Scikit-learn for comparison  
+- Using Scikit-learn for comparison
+
+### 🔹  Lab 4: K-Means Clustering
+- Implementing K-Means Clustering algorithm from scratch using NumPy to perform unsupervised learning.
+- Apply the algorithm to the bookprice.csv dataset to group books based on price and page count.
+- Initialize centroids randomly and iteratively update cluster assignments until convergence.
+- Visualize cluster assignments and centroids using Matplotlib.
+- Calculate intra-cluster distances and overall average distance to evaluate clustering performance.
+- Compare the implementation with Scikit-learn’s KMeans for validation and understanding.
 
 ### 🔹 Lab 6: Linear Regression
 - Simple linear regression implementation in NumPy  
 - Predicting book prices based on page count  
 
-### 🔹 Lab 7: Ordinary Least Squares (OLS) Regression
+### 🔹 Lab 8: Ordinary Least Squares (OLS) Regression
 - Multiple linear regression with OLS  
 - Predicting student admission chances based on GRE, TOEFL, CGPA, etc.  
